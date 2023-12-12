@@ -1,0 +1,29 @@
+.CS-navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.CS-navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.CS-navbar a:hover {
+  background-color: #000;
+}
+
+.CS-active {
+  background-color: #04AA6D;
+}
+
+@media (max-width: 500px) {
+  .CS-navbar a {
+    float: none;
+    display: block;
+  }
+}
+
